@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('/fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratsemi_bold';
+    src: url('/fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('/fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratultra_light';
+    src: url('/fonts/montserrat-ultralight-webfont.woff2') format('woff2'),
+         url('/fonts/montserrat-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}* {
+    font-family: "montserratultra_light", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "montserratsemi_bold", sans-serif;
+}
+
+.caps {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.color-grey {
+    color: #aaaaaa;
+}
+
+.bold {
+	font-family: 'montserratregular', sans-serif;
+}
+
+.icon-extra-large {
+	font-size: 7em;
+}
+
+.color-theme {
+	color: #666666;
+}
+
+.color-border-light {
+	border-color: #cccccc
+}
